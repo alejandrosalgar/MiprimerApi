@@ -1,0 +1,462 @@
+# ===========================================
+# PYTHON
+# ===========================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+.pybuilder/
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# poetry
+poetry.lock
+
+# pdm
+.pdm.toml
+
+# PEP 582
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# ===========================================
+# FASTAPI / UVICORN
+# ===========================================
+
+# Logs de uvicorn
+*.log
+
+# Archivos temporales de uvicorn
+.uvicorn/
+
+# ===========================================
+# BASE DE DATOS
+# ===========================================
+
+# Archivos de base de datos local
+*.db
+*.sqlite
+*.sqlite3
+
+# Archivos de backup de SQL Server
+*.bak
+*.trn
+*.ldf
+*.mdf
+
+# Archivos de configuración de conexión
+connection_strings.txt
+db_config.txt
+
+# ===========================================
+# VARIABLES DE ENTORNO
+# ===========================================
+
+# Archivos de configuración sensibles
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+.env.staging
+
+# Archivos de configuración local
+config.local.py
+settings.local.py
+
+# ===========================================
+# IDEs Y EDITORES
+# ===========================================
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# ===========================================
+# SISTEMA OPERATIVO
+# ===========================================
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.tmp
+*.temp
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ===========================================
+# LOGS Y ARCHIVOS TEMPORALES
+# ===========================================
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# nyc test coverage
+.nyc_output
+
+# Grunt intermediate storage
+.grunt
+
+# Bower dependency directory
+bower_components
+
+# node_modules
+node_modules/
+
+# ===========================================
+# ARCHIVOS DE DESARROLLO
+# ===========================================
+
+# Archivos de desarrollo local
+local_settings.py
+dev_settings.py
+test_settings.py
+
+# Archivos de configuración de desarrollo
+development.py
+testing.py
+
+# Archivos de migración personalizados
+migrations/
+alembic/
+
+# Archivos de dump de base de datos
+dumps/
+backups/
+
+# ===========================================
+# ARCHIVOS DE PRODUCCIÓN
+# ===========================================
+
+# Archivos de configuración de producción
+production.py
+prod_settings.py
+
+# Archivos de certificados SSL
+*.pem
+*.key
+*.crt
+*.csr
+
+# Archivos de configuración de servidor
+nginx.conf
+apache.conf
+gunicorn.conf.py
+
+# ===========================================
+# ARCHIVOS DE TESTING
+# ===========================================
+
+# Archivos de testing
+test_*.py
+*_test.py
+tests/
+
+# Archivos de cobertura
+.coverage
+coverage.xml
+htmlcov/
+
+# Archivos de pytest
+.pytest_cache/
+.pytest_cache/
+
+# ===========================================
+# ARCHIVOS DE DEPLOYMENT
+# ===========================================
+
+# Docker
+Dockerfile.prod
+docker-compose.prod.yml
+.dockerignore
+
+# Kubernetes
+*.yaml
+*.yml
+k8s/
+
+# CI/CD
+.github/
+.gitlab-ci.yml
+.travis.yml
+.circleci/
+azure-pipelines.yml
+
+# ===========================================
+# ARCHIVOS PERSONALES
+# ===========================================
+
+# Notas personales
+NOTES.md
+TODO.md
+CHANGELOG.md
+
+# Archivos de configuración personal
+my_config.py
+personal_settings.py
+
+# ===========================================
+# ARCHIVOS DE SEGURIDAD
+# ===========================================
+
+# Claves privadas
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Certificados
+*.crt
+*.cer
+*.der
+
+# Archivos de configuración de seguridad
+security.py
+secrets.py
+keys.py
+
+# ===========================================
+# ARCHIVOS DE BACKUP
+# ===========================================
+
+# Archivos de backup
+*.bak
+*.backup
+*.old
+*.orig
+*.save
+
+# Archivos temporales
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# ===========================================
+# ARCHIVOS ESPECÍFICOS DEL PROYECTO
+# ===========================================
+
+# Archivos de configuración local de la API
+api_config.local.py
+database_config.local.py
+
+# Archivos de logs de la API
+api_logs/
+database_logs/
+
+# Archivos de cache
+.cache/
+cache/
+
+# Archivos de sesión
+sessions/
+*.session
+
+# Archivos de upload
+uploads/
+media/
+static/uploads/
+
+# ===========================================
+# COMENTARIOS FINALES
+# ===========================================
+
+# Recuerda: Nunca subir archivos .env a Git
+# Recuerda: Nunca subir claves privadas o certificados
+# Recuerda: Nunca subir archivos de configuración local
+# Recuerda: Nunca subir archivos de base de datos
+# Recuerda: Nunca subir logs o archivos temporales

@@ -45,6 +45,10 @@ def get_users() -> List[User]:
     }
 )
 def crear_user(user: User) -> User:
+    """
+    
+    
+    """"
     for cada_usuario in user_db:
         if cada_usuario.id == user.id:
             raise HTTPException(status_code=400,detail="El ID ya existe")
